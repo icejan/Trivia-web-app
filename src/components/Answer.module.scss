@@ -1,0 +1,22 @@
+.answer {
+    width: 48%;
+    padding: 5px;
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: 3px double #FFFFFF;
+    border-radius: 10px;
+
+    &:focus {
+        border: 3px double #FFEE74;
+    }
+
+    font-family:Courier,
+    monospace;
+
+    &:hover {
+        background-color: #646464;
+    }
+
+    height:0%;
+}
